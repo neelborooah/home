@@ -36,16 +36,56 @@
                 text-decoration: none;
                 font-style: italic;                    
             }
+            .other-links {
+            	position: absolute;
+    			bottom: 30;
+    			right: 30;
+    			display: flex;
+    			flex-direction: row;
+            }
+            .other-links > div {
+            	padding: 0 15px;
+            }
+            .hidden {
+                display: none;
+            }
+            .align-item > * {
+            	margin-bottom: 15px;
+            }
+            @media only screen and (max-width: 768px) {
+            	.align-item {
+            		padding: 30px;
+            	}	
+            }
 		</style>
 	</head>
 	<body>
 		<div class="align-item">
 			<h1>Hi!</h1>
-			<p>Contact me at neelborooah@gmail.com</p>
+			<div>
+				<p>I am a generalist programmer who loves solving challenging problems and building elegant abstractions through code.</p>
+				<p>I am currently working at <a href="https://www.bloomreach.com/en" target="_blank">Bloomreach</a>.</p>
+				<p>Aside from engineering, I spend a lot of time trying to improve my physical awareness and thinking about life. :|</p>
+			</div>
+			<p>Contact me at hi@neelborooah.com</p>
 		    <p>
-                <a href="https://github.com/neelborooah/" target="_blank">GitHub</a> or do you want to  
-                <a href="http://ze-game.neelborooah.com" target="_blank">play a game?</a>
+                <a href="http://cda.neelborooah.com" target="_blank">Do you want to play a game?</a>
             </p>    
+        </div>
+
+        <div class="other-links">
+        	<div>
+        		<a href="http://cv.neelborooah.com" target="_blank">CV</a>
+        	</div>
+        	<div>
+        		<a href="https://www.linkedin.com/in/neel-borooah-03a02a36" target="_blank">LinkedIn</a>
+        	</div>
+        	<div>
+        		<a href="http://tomatochutney.in" target="_blank">Tomato Chutney</a>
+        	</div>
+        	<div>
+        		<a href="https://github.com/neelborooah/" target="_blank">Github</a>
+        	</div>
         </div>
 	</body>
 </html>
